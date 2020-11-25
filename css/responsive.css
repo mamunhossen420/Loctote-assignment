@@ -1,0 +1,47 @@
+@media (max-width: 1400px){
+	.container{
+		max-width: 100% !important;
+		padding: 0 30px;
+	}
+
+}
+@media (max-width: 991px){
+	.col-md-none{
+		display: none;
+	}
+	.bnr-top-content span{
+		font-size: 14px;
+		font-weight: 100;
+	}
+	.banner-content h3{
+		font-size: 26px !important;
+	}
+	span.sm-none{
+		display: none !important;
+	}
+	span.sm-block{
+		display: block !important;
+	}
+
+}
+@media (max-width: 767px){
+	.hdr-left-content{
+		text-align: center;
+	}
+	.social ul{
+		justify-content: center !important;
+		padding-top: 20px;
+	}
+}
+@media (max-width: 575px){
+	.container{
+		padding: 0 !important;
+	}
+	*{
+		margin: 0;
+	}
+	footer{
+		margin: 0;
+		padding-left: 20px;
+	}
+}

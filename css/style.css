@@ -1,0 +1,202 @@
+
+body{
+	background: #F4F0EB;
+	font-family: 'Saira', sans-serif;
+	width: calc(100% - 1px);
+}
+a{
+	text-decoration: none;
+	display: inline-block !important;
+}
+
+select:focus{
+	outline: none;
+}
+section.header-top {
+    padding-top: 10px;
+}
+.header-top,.navbar{
+	background: #F4F0EB !important;
+}
+.header-top h6{
+	color: #333333b3;
+}
+.header-top .container{
+	
+}
+.social ul{}
+.social ul li{
+    padding-right: 23px;
+}
+.social ul li:last-child {
+    padding-right: 0 !important;
+}
+.social ul li a{
+	color: #333;
+}
+.social ul li a:hover{}
+.social select{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+}
+.social select option{}
+/*****banner-section*****/
+.banner-section{
+	background: url(../images/banner.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:400px;
+	max-height: 100%;
+}
+.banner-content{}
+.banner-content h3{
+	padding-top: 180px;
+} 
+
+/*****product-section******/
+.product-section 
+.product-dropdown{
+	max-width: 100%;
+}
+.product-dropdown select{
+	padding: 8px 100px 8px 8px;
+	background: transparent;
+	max-width: 100%;
+}
+.product-dropdown select, option{
+	text-transform: uppercase;
+}
+.product-all-content{
+	padding-bottom: 20px;
+}
+img.product-images {
+    padding: 10px;
+}
+
+.product-content {
+    padding: 0 23px;
+}
+.product:hover .quick{
+	bottom: 0px;
+	opacity: 1;
+}
+.product-content .pr-4px {
+    padding-right: 4px;
+}
+.img-all{
+    position: relative;
+
+}
+.sale{
+	top: 0;
+	right: 0;
+	text-transform: capitalize;
+	background: black;
+	padding: 5px 10px;
+}
+.quick{
+	bottom: -2px;
+	text-transform: capitalize;
+	transition: all .3s;
+	text-align: center;
+	background: black;
+	width: 100%;
+	padding: 5px 10px;
+	opacity: 0;
+}
+.hover-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+.hover-img-black{
+	position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+.img-all:hover .hover-img{
+    opacity: 1;
+    cursor: pointer;
+}
+.img-all:hover .product-img{
+    opacity: 0;
+    cursor: pointer;
+}
+.color-select{
+	text-align: center;
+}
+.black{
+	cursor: pointer;
+}
+.product-all-content .black:hover .hover-img-black{
+	display: block !important;
+	cursor: pointer;
+}
+.color-select div{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+}
+.black-red{
+	background: rgb(41,25,69);
+	background: linear-gradient(21deg, rgba(41,25,69,0.9240695224719101) 47%, rgba(222,208,31,0.9353054775280899) 98%);
+}
+/*****footer*********/
+footer{
+	max-width: 100%;
+	overflow: hidden;
+}
+footer a,footer li strong{
+	color: #333 !important;
+	padding: 7px 0;
+}
+footer li strong{
+	padding-bottom: 17px;
+	display: inline-block;
+}
+footer a:hover{
+	color: black !important;
+}
+footer input{
+    border: none;
+    padding: 5px 5px 10px 5px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #333;
+    background: transparent;
+    max-width: 100%;
+}
+footer input:focus{
+	outline: none;
+}
+
+.icon-mail {
+    right: 0;
+    bottom: 8px;
+    text-align: right;
+    text-transform: capitalize;
+}
+.mail-icon {
+    font-size: 21px;
+}
+.social-icon-footer li{
+    padding-right: 24px;
+}
+.social-icon-footer li a{
+    padding: 2px 4px;
+    font-size: 21px;
+}
+.jamela button{
+	outline: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.jamela button:focus{
+	outline: none;
+	border: none;
+	box-shadow: none;
+	transform: translatex(8px);
+}
